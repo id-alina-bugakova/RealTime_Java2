@@ -30,8 +30,10 @@ public class Main {
         int num = 1, min = 1000000000, max = -1000000000;
         while(num != 0) {
             num = sc.nextInt();
-            min = Math.min(num, min);
-            max = Math.max(num, max);
+            if(num != 0) {
+                min = Math.min(num, min);
+                max = Math.max(num, max);
+            }
         }
         System.out.println("Min: " + min);
         System.out.println("Max: " + max);
@@ -40,8 +42,10 @@ public class Main {
         max = -1000000000;
         do {
             num = sc.nextInt();
-            min = Math.min(num, min);
-            max = Math.max(num, max);
+            if (num != 0) {
+                min = Math.min(num, min);
+                max = Math.max(num, max);
+            }
         } while(num != 0);
         System.out.println("Min: " + min);
         System.out.println("Max: " + max);

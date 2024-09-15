@@ -95,6 +95,7 @@ public class Item {
     @Override
     public String toString() {
         return "Item { " +
+                "id = " + this.id + ", " +
                 "name = " + this.name + ", " +
                 "description = " + this.description + ", " +
                 "price = " + this.price + ", " +

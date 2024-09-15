@@ -1,4 +1,4 @@
-package ru.mirea.lab3.task1_2;
+package ru.mirea.lab3.task_1_2;
 
 import java.util.AbstractMap;
 import java.util.ArrayList;

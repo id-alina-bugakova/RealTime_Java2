@@ -1,4 +1,4 @@
-package ru.mirea.lab3.task1_2;
+package ru.mirea.lab3.task_1_2;
 
 public class Circle implements Comparable<Circle>{
     private Point center;

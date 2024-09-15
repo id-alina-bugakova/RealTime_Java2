@@ -1,7 +1,7 @@
 package ru.mirea.lab3;
 
 import ru.mirea.common.Random;
-import ru.mirea.lab3.task1_2.Tester;
+import ru.mirea.lab3.task_1_2.Tester;
 import ru.mirea.lab3.task_3_3.Report;
 
 import java.util.ArrayList;
