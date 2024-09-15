@@ -1,7 +1,8 @@
 package ru.mirea.lab4_1;
 
 import ru.mirea.common.Random;
-import ru.mirea.lab4_1.task_4_1_1_1.Tester;
+import ru.mirea.lab4_1.task_1_1.Tester;
+import ru.mirea.lab4_1.task_2_8.Tester_remade;
 
 public class Main {
     public static void task_4_1_1_1() {
@@ -42,8 +43,11 @@ public class Main {
         System.out.println("A * B = ");
         Matrix.prod(a, b).print();
     }
+    public static void task_4_1_2_8() {
+        Tester_remade.test();
+    }
 
     public static void main(String[] args) {
-        task_4_1_1_4();
+        task_4_1_2_8();
     }
 }

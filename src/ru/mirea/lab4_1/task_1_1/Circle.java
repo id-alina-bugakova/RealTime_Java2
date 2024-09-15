@@ -1,7 +1,9 @@
-package ru.mirea.lab4_1.task_4_1_1_1;
+package ru.mirea.lab4_1.task_1_1;
+
+import ru.mirea.common.Point;
 
 public class Circle extends Shape{
-    double radius;
+    private double radius;
 
     public Circle() {
         this.center = new Point(0, 0);

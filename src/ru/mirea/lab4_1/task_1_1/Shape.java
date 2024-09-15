@@ -1,7 +1,9 @@
-package ru.mirea.lab4_1.task_4_1_1_1;
+package ru.mirea.lab4_1.task_1_1;
+
+import ru.mirea.common.Point;
 
 public abstract class Shape {
-    Point center;
+    protected Point center;
 
     public Point getCenter() {
         return this.center;
