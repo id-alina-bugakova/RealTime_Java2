@@ -1,20 +1,20 @@
-package ru.mirea.lab2;
+package ru.mirea.lab4_1.task_4_1_1_1;
 
-public class Ball {
-    private double x = 0.0;
-    private double y = 0.0;
+public class Point {
+    private double x;
+    private double y;
 
-    public Ball() {
+    public Point() {
         this.x = 0.0;
         this.y = 0.0;
     }
-    public Ball(double x, double y) {
+    public Point(double x, double y) {
         this.x = x;
         this.y = y;
     }
 
     public double getX() {
-        return x;
+        return this.x;
     }
     public void setX(double x) {
         this.x = x;
@@ -30,15 +30,10 @@ public class Ball {
         this.y = y;
     }
 
-    public void move(double xDisp, double yDisp) {
-        this.x += xDisp;
-        this.y += yDisp;
-    }
-
     @Override
     public String toString() {
-        return "Ball { " +
-               "x = " + this.x + ", " +
-               "y = " + this.y + " }";
+        return "Point { " +
+                "x = " + this.x + ", " +
+                "y = " + this.y + " }";
     }
 }

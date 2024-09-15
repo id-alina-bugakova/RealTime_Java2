@@ -17,16 +17,16 @@ public class Author {
     }
 
     public String getName() {
-        return name;
+        return this.name;
     }
     public String getEmail() {
-        return email;
+        return this.email;
     }
     public void setEmail(String email) {
         this.email = email;
     }
     public char getGender() {
-        return gender;
+        return this.gender;
     }
 
     @Override

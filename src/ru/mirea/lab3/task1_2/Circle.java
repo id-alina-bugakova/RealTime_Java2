@@ -1,6 +1,6 @@
-package ru.mirea.lab2.task3;
+package ru.mirea.lab3.task1_2;
 
-public class Circle {
+public class Circle implements Comparable<Circle>{
     private Point center;
     private double radius;
 
@@ -27,6 +27,16 @@ public class Circle {
     }
     public void setRadius(double radius) {
         this.radius = radius;
+    }
+
+    @Override
+    public int compareTo(Circle o) {
+        if(this.radius > o.radius)
+            return 1;
+        else if(this.radius == o.radius)
+            return 0;
+        else
+            return -1;
     }
 
     @Override

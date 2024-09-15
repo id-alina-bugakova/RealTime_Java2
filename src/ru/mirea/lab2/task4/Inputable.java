@@ -1,2 +1,5 @@
-package ru.mirea.lab2.task4;public interface Inputable {
+package ru.mirea.lab2.task4;
+
+public interface Inputable {
+    public void input ();
 }

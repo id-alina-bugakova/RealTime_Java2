@@ -1,0 +1,21 @@
+10
+Dragonfly 20W110INF
+120000 50
+PearBook Pro 2092
+250000 30
+LUX 14S Plus
+80000 50
+Estrella StarGlider 3
+120000 50
+HuoShi 147285770
+50000 20
+Minjian HumaBook X24
+240000 5
+Chun NoteBook 2345K-1209AD5847F
+70000 40
+Baram WindBook 701A
+100000 50
+Tree(3) InfiBook 7090
+150000 5
+Reality AvgBook 1234567890
+100000 10
