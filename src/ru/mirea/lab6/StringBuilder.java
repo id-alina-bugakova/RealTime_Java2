@@ -1,4 +1,4 @@
-package ru.mirea.lab6.task12;
+package ru.mirea.lab6;
 
 import java.util.ArrayList;
 

@@ -1,7 +1,6 @@
 package ru.mirea.lab6;
 
 import ru.mirea.lab6.task1.MovableCircle;
-import ru.mirea.lab6.task12.StringBuilder;
 
 import java.util.Scanner;
 
