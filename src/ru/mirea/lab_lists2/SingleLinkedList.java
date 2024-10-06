@@ -105,7 +105,7 @@ public class SingleLinkedList<E extends Comparable<E>> {
         this.clear();
         Node<E> cur1 = sorted1.head, cur2 = sorted2.head;
         while(cur1 != null || cur2 != null) {
-            if(cur2 == null || (cur1 != null && cur1.getData().compareTo(cur2.getData()) < 1)) {
+            if(cur2 == null || (cur1 != null && cur1.getData().compareTo(cur2.getData()) <= 0)) {
                 this.addNode(cur1.getData());
                 cur1 = cur1.next;
             }
