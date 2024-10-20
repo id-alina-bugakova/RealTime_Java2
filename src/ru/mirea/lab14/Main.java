@@ -32,6 +32,7 @@ public class Main {
                 29/02/2001
                 29/02/2100
                 29/02/2004
+                29/02/1800
                 30/02/2004
                 31/04/2020
                 35/12/2024
@@ -47,6 +48,7 @@ public class Main {
         Matcher matcher = pattern.matcher(text);
         while(matcher.find())
             System.out.println(text.substring(matcher.start(), matcher.end()));
+        //System.out.println(regex);
     }
     public static void task14_6() {
         String s1 = "[a-zA-Z0-9!#%&'*+/=?^_{|}~-]";
